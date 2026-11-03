@@ -7,8 +7,33 @@
     <title>repl.it</title>
   </head>
   <body>
+    <div>
+      <h3>Wyszukanie danych kraju swedług stolicy:</h3>
+      <form action="" method="post">
+        <input type="text" name="capital" id="capital-input" placeholder="Stolica">
+        <input type="submit" value="Wyślij" id="capital-send">
+      </form>
+    </div>
     <div id="answer">
+      <div id="table-error-message">
+        No country found!
+      </div>
+      <table id="capital-table">
+        <thead id="capital-table-head">
+          <tr>
+            <th>Name</th>
+            <th>Capital</th>
+            <th>Population</th>
+            <th>Region</th>
+            <th>Subregion</th>
+          </tr>
+        </thead>
+        <br>
+        <tbody id="capital-table-body">
+        </tbody>
+      </table>
     </div>
     <script src="script.js"></script>
+    <script src="config.local.js"></script>
   </body>
 </html>

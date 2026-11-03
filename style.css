@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#capital-table {
+  display: none;
+  border: solid 1px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: solid 1px;
+  border-collapse: collapse;
+  padding: 5px;
+}
